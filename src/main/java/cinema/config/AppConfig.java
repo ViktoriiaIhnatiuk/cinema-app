@@ -46,7 +46,6 @@ public class AppConfig {
         factoryBean.setPackagesToScan("cinema.model");
         return factoryBean;
     }
-
     @Bean
     public PasswordEncoder getEncoder() {
         return new BCryptPasswordEncoder();
